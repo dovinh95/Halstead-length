@@ -1,0 +1,15 @@
+def length_of_last_word(s):
+    # Step 1: Trim the string to remove trailing spaces
+    trimmed_string = s.rstrip()
+    # Step 2: Split the string into words
+    words = trimmed_string.split()
+    # Step 3: Get the last word
+    last_word = words[-1]
+    # Step 4: Return the length of the last word
+    return len(last_word)
+
+# Test the function with example inputs
+print(length_of_last_word("Hello World"))  # Output: 5
+print(length_of_last_word("   fly me   to   the moon  "))  # Output: 4
+print(length_of_last_word("luffy is still joyboy"))  # Output: 6
+
