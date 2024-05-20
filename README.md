@@ -1,6 +1,3 @@
-Here’s a concise description you can use for posting your project on GitHub, detailing a Python script to determine the length of the last word in a string:
-
----
 
 ## Project Title: Length of the Last Word
 
